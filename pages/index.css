@@ -9,6 +9,9 @@ margin:0px;
 color: #fff
 }
 
+h2, h3{
+    margin: 20px;
+}
 
   ul {
     list-style: none;
@@ -226,6 +229,94 @@ color: #fff
   }
   
   .empresa-nome {
+    flex: 1;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  
+  .projetos {
+    background: #0000;
+    color: #ffffff;
+  }
+  
+  .projetos-container {
+    max-width: 1200px;
+    padding: 120px 20px;
+    margin: 0 auto;
+    gap: 100px;
+    position: relative;
+  }
+  
+  .projetos-container::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+  }
+  
+  .projeto .subtitulo {
+    color: #000000;
+    max-width: 5ch;
+  }
+  
+  .experiencia-texto {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 40ch;
+    margin-bottom: 60px;
+    color: #a3a3a3;
+  }
+  
+  .projeto-texto strong {
+    color: #ffffff;
+  }
+  
+  .projetos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70%;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+  
+  .projeto {
+    flex: 1;
+    background: #141414;
+
+ 
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .projeto-tipo {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #a3a3a3;
+    margin-bottom: 10px;
+  }
+
+  .projeto-cargo {
+    flex: 1;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  .projeto {
+    font-size: 1.125rem;
+    color: #a3a3a3;
+  }
+  
+  .projeto-nome {
     flex: 1;
     font-size: 1.125rem;
     line-height: 1.4;
